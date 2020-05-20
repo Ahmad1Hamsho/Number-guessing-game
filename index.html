@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number-guessing-game</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <section>
+      <form action="" class="form1">
+        <div id="div1">
+          <h1>In how many rounds you think you can guess the Number?</h1>
+          <div class="radio">
+            <label for=""
+              >4<input
+                type="radio"
+                onclick="customB()"
+                value="4"
+                name="radio"
+                id="four"
+            /></label>
+            <label for=""
+              >5<input
+                type="radio"
+                onclick="customB()"
+                value="5"
+                name="radio"
+                id="five"
+            /></label>
+            <label for=""
+              >6<input
+                type="radio"
+                onclick="customB()"
+                value="6"
+                name="radio"
+                id="six"
+            /></label>
+            <label for=""
+              >Custom<input
+                type="radio"
+                onclick="customB()"
+                name="radio"
+                id="custom"
+                value=""
+            /></label>
+          </div>
+          <input type="number" name="" id="customNum" />
+        </div>
+        <div id="div2"></div>
+      </form>
+      <form action="" class="form2">
+        <input type="number" name="" id="number" /><button
+          id="guess2"
+          onclick="guess()"
+        >
+          guess
+        </button>
+        <button id="ref" onclick="ref()">
+          try again
+        </button>
+        <div id="erg"></div>
+      </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

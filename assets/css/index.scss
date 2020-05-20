@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+
+  section {
+    margin: auto;
+    width: 30vw;
+    height: 90%;
+    .form2 {
+      border: 2px solid white;
+      padding: 20px;
+      height: 26vh;
+      overflow: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      input {
+        width: 6vw;
+        height: 6vh;
+        position: relative;
+        left: 38%;
+      }
+      button {
+        position: relative;
+        top: 50px;
+        left: 4.3vw;
+        width: 6vw;
+        height: 4vh;
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: 1em;
+      }
+      #ref {
+        position: relative;
+        top: 6px;
+        left: 10.5vw;
+        display: none;
+      }
+      #erg {
+        position: relative;
+        top: 26%;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        font-size: 1.2em;
+        font-size: bolder;
+      }
+    }
+    .form1 {
+      font-size: 2.2em;
+      border: 2px solid white;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      #div2 {
+        font-size: 1.5em;
+      }
+      .radio {
+        text-align: center;
+        display: grid;
+        row-gap: 9px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-bottom: 10px;
+      }
+      #customNum {
+        height: 5vh;
+        width: 7vw;
+        position: relative;
+        left: 40%;
+        font-size: 1.5em;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: none;
+      }
+    }
+  }
+}
